@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ToDo-List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="toDoList">
+    <div class="descBox">
+    <h1>WORK TO-DOS</h1>
+    <p style="color:#fdc45a;">Enter text into the input field to add items to your list.</p>
+    <p style="color: #72f172">Click the item to mark it as complete.</p>
+    <p style="color: #6b6868;">Click the "X" to remove the item from your list.</p>
+  <div style="margin-left: 100px;">
+    <input type="text" id="inputBox" placeholder="New item...">
+    <span onclick="addToList()" class="addButton">+</span>
+  </div>
+</div>
+  <div class="listBox">
+  <ul id="list">
+  </ul>
+</div>
+</div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
